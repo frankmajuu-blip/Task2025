@@ -1,0 +1,25 @@
+// simple C program
+/*
+Name: Ndungu Francis
+Reg: CT100/G/26209/25
+Description: Units semester 1 year 1 IT
+*/
+
+#include <stdio.h>
+
+int main() {
+    // Displaying information of units in semester 1
+    printf("Here are The Units For year 1 Sem 1\n");
+    
+    // list of units
+    printf("1. SPH 2107 Analogue Electronics\n");
+    printf("2. SPH 2101 Introduction To Programming Algorithms\n");
+    printf("3. SPHI 2102 Computer Systems And Organisation\n");
+    printf("4. SPI 2103 Introduction to Computer Application\n");
+    printf("5. SPI 2120 Essentials Of Accounting\n");
+    printf("6. SPM 2104 Mathematics For Science\n");
+    printf("7. UCU 2105 Fundamentals Of ICT\n");
+    printf("8. UCU 2106 Communication and Information Literacy Skills\n");
+    
+    return 0;
+}
