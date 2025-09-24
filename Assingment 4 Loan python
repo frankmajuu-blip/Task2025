@@ -1,0 +1,27 @@
+# A Python program
+"""
+Name:Ndungu Francis
+Reg:CT100/G/26209/25
+Description:A python program thats propts user for their age and salary then checks whether they qualify for a loan
+"""
+#include<stdio.h> #have stardard input/output library for funtions like printf and scanf
+int main(){
+	int age;    #have a variable to store customers age
+	float salary;    #have a variabe to store customers annual salary
+	#prompt user for their age
+	printf("Please Enter Your Age:");
+	scanf("%d",&age);   #read the customers age and store it in the (Age)variable
+	#prompt user to enter their annual salary
+	printf("Please Enter Your Salary(in ksh):");   
+	scanf("%f",&salary);    #read the customers salary and store it in the(salary) variable
+	# check if the customer can get loan by checking on both age and salary as requirements
+	if(age>=21&salary>=21000){
+		# if both of conditions are true then print the congratuory message
+		printf("Congratulations,You Qualify For A Loan!\n");
+	}else{
+		#if either of the conditions are false and do not meet expected,print rejection message
+		printf("Unfortunately,we are unable to offer you a loan at this time.\n");
+	} 
+	return 0;
+	
+}
