@@ -1,0 +1,31 @@
+/*
+Nama:NDUNGU FRANCIS
+Reg:CT100/G/26209/25
+Description:A C program that keeps prompting user to enter their correct password and uses a do while loop
+
+*/
+
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+	char password[5];
+	//do while loop running at least one time
+	do{
+		//ask user for password and store it
+		printf("Enter Your Password:\n ");
+		scanf("%s" ,password);
+		//check if password is correct
+		if (strcmp(password, "1234") != 0) {
+		
+			printf("incorrect Password.Try again.\n");
+		}
+		
+		}while (strcmp(password,  "1234")!=0);  //repeat untill the password is correct
+		//once correct
+		printf("Access Granted.\n");
+		
+		return 0;
+		
+		
+	}
