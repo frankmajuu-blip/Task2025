@@ -23,7 +23,7 @@ int main() {
     c = convertToCelsius(f);
 
     // Display result
-    printf("Temperature in Celsius = %.f°C\n", c);
+    printf("Temperature in Celsius = %.fÂ°C\n", c);
 
     return 0;
 }
