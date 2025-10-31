@@ -1,0 +1,26 @@
+/*
+Name:NDUNGU FRANCIS
+Reg:CT100/G/26209/25
+Description:A c programm that calculates fare according to distance covered
+*/
+
+#include<stdio.h>
+float calculateFare(float distance){
+	float fare;
+	fare=distance*50;
+	return fare;
+}
+
+int main(){
+	float distance;
+	float totalFare;
+	//prompt user to enter distane 
+	printf("Enter Distance Travelled (Km):\n ");
+	scanf("%f", &distance);
+	//calculate fare
+	totalFare=calculateFare(distance);
+	//display result to the user
+	printf("Total Fare=Ksh %.f\n", totalFare);
+	
+	return 0;
+}
